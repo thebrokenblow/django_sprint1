@@ -1,3 +1,11 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def post_detail(request, id):
+    template = 'blog/detail.html'
+    return render(request, template)
+
+
+def category_posts(request, category_slug):
+    template = 'blog/category.html'
+    return render(request, template)
