@@ -48,8 +48,8 @@ python manage.py runserver
 
 ## Запуск тестов
 ```bash
-pytest                        # Запуск всех тестов
-pytest tests/test_urls.py     # Тесты URL
+pytest                         # Запуск всех тестов
+pytest tests/test_urls.py      # Тесты URL
 pytest tests/test_templates.py # Тесты шаблонов
-pytest tests/test_settings.py # Тесты настроек
+pytest tests/test_settings.py  # Тесты настроек
 ```
