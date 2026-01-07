@@ -1,5 +1,6 @@
 from datetime import datetime
 from django.shortcuts import render
+from django.http import Http404
 
 posts = [
     {
@@ -44,6 +45,8 @@ posts = [
     },
 ]
 
+posts_dict = {post['id']: post for post in posts}
+
 
 def index(request):
     template = 'blog/index.html'
@@ -57,16 +60,16 @@ def index(request):
     return render(request, template, context)
 
 
-def post_detail(request, id):
+def post_detail(request, post_id):
     template = 'blog/detail.html'
+    post = posts_dict.get(post_id)
 
+    if post is None:
+        raise Http404(f"Пост с id={post_id} не найден")
+    
     context = {
-        'post': None
+        'post': post,
     }
-
-    for post in posts:
-        if post["id"] == id:
-            context["post"] = post
     return render(request, template, context)
 
 
