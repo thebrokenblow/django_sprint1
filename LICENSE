@@ -1,17 +1,7 @@
-# Лицензия MIT
+MIT License
 
-Copyright (c) [2026] [thebrokenblow]
+Copyright (c) 2026 thebrokenblow
 
-Разрешается любое использование, распространение и модификация этого программного обеспечения **при соблюдении следующих условий**:
-
-1. **Уведомление об авторских правах** должно быть сохранено во всех копиях или значительных частях программного обеспечения.
-2. **Лицензиар** не несет ответственности за любые претензии, убытки или иные обязательства, возникающие из-за использования или невозможности использования программного обеспечения.
-
----
-
-### Полный текст лицензии:
-
-```
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -29,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
